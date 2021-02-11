@@ -41,7 +41,7 @@ where
     /// Typically it is more convenient to use one of these methods instead:
     ///
     ///   - Deserializer::from_str
-    ///   - Deserializer::from_bytes
+    ///   - Deserializer::from_slice
     ///   - Deserializer::from_reader
     pub fn new(read: R) -> Self {
         Deserializer {
